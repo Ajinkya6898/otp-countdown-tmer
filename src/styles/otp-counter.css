@@ -1,0 +1,84 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > div {
+  font-size: 16px;
+  width: 400px;
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container > div > h4 {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  padding: 0 0 20px;
+}
+
+input {
+  width: 360px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #82b1ff;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2962ff;
+}
+
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.resend-otp-btn {
+  background-color: #ffcc80;
+  border: 1px solid #ffa726;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.resend-otp-btn:hover {
+  background-color: #ffa726;
+  border: 1px solid #ff9800;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #448aff;
+  border: 1px solid #1565c0;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.submit-btn:hover {
+  background-color: #2962ff;
+  border: 1px solid #0d47a1;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #f5f5f5;
+  border: 1px solid #bdbdbd;
+}
+
+button:disabled:hover {
+  background-color: #f5f5f5;
+  border: 1px solid #bdbdbd;
+}

@@ -1,7 +1,12 @@
 import React from "react";
+import OTPCounter from "./components/OTPCounter";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <OTPCounter />
+    </>
+  );
 };
 
 export default App;
